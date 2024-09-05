@@ -98,6 +98,19 @@ body {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
+/* Scarcity Section */
+.scarcity {
+  background-color: #fce4e4; /* Light red background for urgency */
+  text-align: center;
+  padding: 20px;
+}
+
+.scarcity-text {
+  color: #d9534f; /* Red to indicate urgency */
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 /* Features Section */
 .features {
   background: #ffffff; /* White background for a clean look */
@@ -179,26 +192,44 @@ body {
   color: #4457a2; /* Accent color */
 }
 
-/* Contact Section */
-.contact {
-  background: #ffffff;
-  padding: 60px 0;
+/* Authority Section */
+.authority {
+  background-color: #eef2f7;
+  padding: 40px 0;
   text-align: center;
 }
 
-.contact .section-title {
-  font-size: 2rem;
-  margin-bottom: 40px;
-  color: #333;
+/* FOMO Section */
+.fomo {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 40px;
 }
 
-.contact a {
-  color: #5a22d8; /* Accent color for links */
-  text-decoration: none;
+.countdown {
+  font-size: 1.5rem;
+  color: #d9534f; /* Red for urgency */
 }
 
-.contact a:hover {
-  text-decoration: underline;
+/* Reciprocity Section */
+.reciprocity {
+  background-color: #5a22d8;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #5a22d8;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e5e5e5;
 }
 
 /* Footer Section */
